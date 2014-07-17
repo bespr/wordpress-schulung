@@ -1,0 +1,72 @@
+/*
+Theme Name: Training2
+*/
+
+
+
+* { margin: 0; padding: 0; }
+ul { list-style-type: none; }
+
+
+html { font-size: 16px; line-height: 1.3em; font-family: sans-serif; }
+
+
+body { background-color: #110011; }
+
+#page { margin: auto; max-width: 960px; background-color: #eeeeee;  }
+
+#masthead { background-color: #006505; padding: 40px; color: white; }
+#masthead a { color: white; text-decoration: none; }
+
+#masthead h1 { float: left; width: 40%; }
+#masthead nav { float: left; width: 60%; }
+#masthead nav ul li { position: relative; }
+#masthead nav ul li a { float: left; border: 1px solid white; margin-right: 10px; padding: 4px; }
+#masthead nav ul li ul { display: none; position: absolute; top: 30px; background: #000000; border: 1px solid black; }
+#masthead nav ul li:hover ul { display: block; }
+#masthead nav ul li ul li a { float: none; display: block; border: none; margin-right: 0; line-height: 1.5em; }
+#masthead nav ul li ul li a:hover { background: #006505; }
+
+#main { overflow: hidden; }
+#main #primary { float: left; width: 70%; }
+#main #secondary { float: left; width: 30%; background-color: #cfc8cf; min-height: 320px;}
+
+#content { margin: 40px; }
+#secondary-content { margin: 40px; }
+#secondary-content ul { margin-bottom: 40px; }
+
+#colophon { background-color: #006505; padding: 40px; color: white; }
+
+
+/* Styles inside #content */
+#content article { margin-bottom: 40px; }
+#content h2 { margin-bottom: 0.5em; }
+#content p { margin-bottom: 1em; }
+#content blockquote { border-left: 6px solid #006505; background: #cfc8cf; padding: 10px 20px 1px 24px; margin-bottom: 1em; }
+#content a.back { margin-bottom: 1em; display: block; }
+#content a.back:before { content: "« "; }
+
+/* Bilder */
+#content .wp-caption.alignleft { float: left; margin-right: 10px; }
+#content .wp-caption.alignright { float: right; margin-left: 10px; }
+#content .wp-caption.aligncenter { margin: auto; }
+
+#content .wp-caption { background: #cfc8cf; } 
+#content .wp-caption a { display: block; }
+#content .wp-caption img { display: block; }
+#content .wp-caption .wp-caption-text { font-size: 0.75em; color: #006505; }
+
+/* Sidebar */
+#secondary ul.menu a { color: black; }
+#secondary .sidebar-list { border-top: 1px solid black; padding-top: 20px; }
+#secondary .sidebar-list li.widget { margin-bottom: 20px; }
+#secondary .sidebar-list h2 { font-size: 20px; line-height: 1.3em; }
+
+/* Footer */
+.footer-sidebar-list {}
+
+
+
+/* Clearfix */
+.cf:before, .cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
